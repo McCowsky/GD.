@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GD. landing page">
+    <meta name="author" content="Mateusz Makowski">
+    <meta name="keywords" content="HTML, CSS, TailwindCSS, git, JavaScript, TypeScript">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&family=Raleway:wght@400;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>GD.</title>
+</head>
+
+<body class="">
+    <div class="bg-gradient-to-b from-[#6F7DFB] to-[#057ADA] w-full">
+        <div class="fixed w-full z-50 left-1/2 translate-x-[-50%] max-w-4xl xl:max-w-6xl">
+            <nav class="flex justify-between items-center h-36">
+                <div class="w-full flex justify-between items-center px-8 xl:px-0">
+                    <h2 class="text-4xl font-raleway font-black text-white md:pl-8 xl:pl-0"><a href="#">GD.</a></h2>
+                    <div class="hidden md:block pr-8 xl:pr-0">
+                        <ul class="flex gap-10 md:gap-14 text-white font-poppins font-bold justify-center items-center">
+                            <a href="">
+                                <li>About</li>
+                            </a>
+                            <a href="">
+                                <li>Services</li>
+                            </a>
+                            <a href="">
+                                <li>Our Work</li>
+                            </a>
+                            <a href="" class="w-40 h-12 bg-black flex justify-center items-center rounded-3xl">
+                                <li>Enrol Now</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col justify-center md:hidden">
+                        <span class="h-1 w-5 bg-black block mb-1"></span>
+                        <span class="h-1 w-5 bg-black block"></span>
+                    </div>
+                </div>
+            </nav>
+            <div
+                class="hidden w-full bg-black px-8 flex justify-center h-[calc(100vh-9rem)] items-center text-white md:hidden">
+                <ul class="flex flex-col items-center font-poppins text-2xl">
+                    <a href="" class="pb-5">
+                        <li class="">About</li>
+                    </a>
+                    <a href="" class="py-5">
+                        <li>Services</li>
+                    </a>
+                    <a href="" class="py-5">
+                        <li>Our Work</li>
+                    </a>
+                    <a href="" class="py-5">
+                        <li>Enroll Now</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <header class="my-0 mx-auto max-w-4xl pt-36 overflow-hidden md:pt-60 xl:max-w-6xl">
+            <div class="px-8 md:pl-24 md:pr-32 flex flex-col xl:flex-row xl:px-0">
+                <div class="xl:basis-[40%]">
+                    <h1 class="text-4xl font-raleway leading-[125%] font-black text-white pb-4
+                    whitespace-pre-line md:text-5xl">Learn the art of
+                        Game Dev
+                    </h1>
+                    <p class="font-poppins leading-[200%] text-white pb-8">This is a comprehensive course on Game
+                        Development. You will
+                        learn everything
+                        from
+                        generating an idea to
+                        publishing your
+                        games to different platforms.</p>
+                    <a href=""
+                        class="flex justify-center items-center gap-2 w-40 h-12 font-poppins text-white font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200">
+                        <img src="./src/img/pencil.svg" alt="pencil pictogram" class="">
+                        Enrol
+                        Now
+                    </a>
+                </div>
+                <div class="flex justify-between items-center relative z-10 md:pl-10 xl:pl-0 xl:basis-[60%]">
+                    <div class="pt-36 md:pt-44 xl:pt-28 ">
+                        <div
+                            class=" w-44 h-16 rounded-2xl bg-white flex flex-col justify-center items-center mb-14 shadow-[20px_20px_28px_0px_rgba(152,55,92,1)] md:mb-28 xl:ml-10">
+                            <h2 class="text-3xl font-poppins font-bold ">
+                                32K</h2>
+                            <p class="font-poppins">Students Enrolled</p>
+                        </div>
+                        <div
+                            class="w-44 h-16 rounded-2xl bg-white flex flex-col justify-center items-center mb-16 relative z-9 shadow-[20px_20px_28px_0px_rgba(152,55,92,1)] md:mb-32">
+                            <div class="flex justify-center items-center gap-2">
+                                <h2 class="font-poppins font-bold text-3xl">4.7</h2>
+                                <img src="./src/img/star.svg" alt="Gold star">
+                            </div>
+                            <p class="font-poppins">Overall Rating</p>
+                        </div>
+                    </div>
+                    <img src="/src/img/student.png" alt="Stydent with thumb up"
+                        class="h-[399px] md:h-[647px] xl:h-[582px] md:absolute md:left-64">
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="my-0 mx-auto max-w-4xl w-full px-8 md:px-24 xl:max-w-6xl xl:px-0 relative">
+            <div class="flex flex-col xl:flex-row-reverse xl:gap-24 mb-12 md:mb-16 xl:pt-32 xl:mb-32">
+                <div class="basis-[60%]">
+                    <h2 class="pt-24 font-raleway font-black text-3xl pb-3 md:text-[2.5rem] xl:text-6xl xl:pt-14">What
+                        our
+                        students say</h2>
+                    <p class="font-poppins leading-[200%] pb-20">All students get access to all the videos and also the
+                        source
+                        code of the projects. <span class="xl:before:content-['\a'] xl:before:whitespace-pre">
+                            You will also have access to a
+                            private Discord channel where you can discuss your doubts.
+                        </span></p>
+                </div>
+                <div
+                    class=" relative z-0 before:absolute before:w-7 before:h-[480px] before:bg-black before:z-[-1] before:left-14 before:mt-[-2rem] before:rounded-3xl md:before:left-20 md:before:h-[500px] xl:before:h-[520px]">
+                    <div
+                        class="bg-white mb-9 rounded-3xl shadow-[0px_9px_36px_0px_rgba(0,0,0,0.2)] relative z-0 xl:mr-8">
+                        <p class="font-raleway text-xl font-black text-white bg-[#6F7DFB] px-8 py-6 rounded-3xl">This is
+                            a
+                            great course. It helped me a lot. Thank you :)</p>
+                        <div class="flex justify-between items-end pb-6 px-8">
+                            <div>
+                                <h4 class="pt-6 pb-2 font-raleway font-black text-lg md:text-2xl">Jane Cooper</h4>
+                                <h5 class=" font-raleway text-sm md:text-lg">Developer, Sony</h5>
+                            </div>
+                            <img src="./src/img/face1.png" alt="person smilling"
+                                class="h-24 w-auto absolute right-8 md:w-28 md:h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-3xl shadow-[0px_9px_36px_0px_rgba(0,0,0,0.2)] relative z-0 xl:ml-8">
+                        <p class="font-raleway text-xl font-black text-white bg-[#DA722C] px-8 py-6 rounded-3xl">Amazing
+                            Work!
+                            Well done!</p>
+                        <div class="flex justify-between items-end pb-6 px-8 relative">
+                            <div>
+                                <h4 class="pt-6 pb-2 font-raleway font-black text-lg md:text-2xl">Jacob Jones</h4>
+                                <h5 class=" font-raleway text-sm md:text-lg">Designer, Facebook</h5>
+                            </div>
+                            <img src="./src/img/face2.png" alt="person smilling"
+                                class="h-24 w-auto absolute right-8 md:w-28 md:h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-end pb-24 xl:absolute xl:bottom-[-40px] xl:right-[400px]">
+                <a href="#"
+                    class="flex justify-center items-center gap-2 w-40 h-12 font-poppins text-white font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200 ">Learn
+                    More</a>
+            </div>
+        </section>
+        <div class="bg-gradient-to-b from-[#6F7DFB] to-[#057ADA] w-full">
+            <section class="my-0 mx-auto max-w-4xl w-full md:px-24 xl:px-0 xl:max-w-6xl">
+                <h2 class="text-white font-black font-raleway text-3xl text-center py-16 md:text-[2.5rem] xl:text-6xl">
+                    Our Courses
+                </h2>
+
+                <div class="flex flex-col gap-14 pb-12 xl:flex-row">
+                    <article
+                        class="px-8 bg-white rounded-3xl relative after:absolute after:content-[' '] after:border-b-8 after:border-black after:border-solid after:w-[calc(100%-4rem)] after:left-1/2 after:translate-x-[-50%] after:bottom-0 basis-1/2">
+                        <img src="./src/img/game.png" alt="first game" class="rounded-3xl pb-8">
+                        <div class="flex items-center justify-between pb-8">
+                            <p class="font-black font-raleway text-2xl md:text-3xl">Game Design <span
+                                    class="xl:before:content-['\a'] xl:before:whitespace-pre"> Essentials</span></p>
+                            <div class="flex items-center gap-1">
+                                <img src="./src/img/clock.svg" alt="clock pictogram">
+                                <p class="font-black font-raleway whitespace-nowrap">8 HRS</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                        class="px-8 bg-white rounded-3xl relative after:absolute after:content-[' '] after:border-b-8 after:border-black after:border-solid after:w-[calc(100%-4rem)] after:left-1/2 after:translate-x-[-50%] after:bottom-0 basis-1/2">
+                        <img src="./src/img/game2.png" alt="first game" class="rounded-3xl pb-8">
+                        <div class="flex items-center justify-between pb-8">
+                            <p class="font-black font-raleway text-2xl md:text-3xl">Unity Game Engine
+                                Fundamentals</p>
+                            <div class="flex items-center gap-1">
+                                <img src="./src/img/clock.svg" alt="clock pictogram">
+                                <p class="font-black font-raleway whitespace-nowrap">8 HRS</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex justify-end pb-16 mr-8 md:mr-0">
+                    <a href="#"
+                        class="flex justify-center items-center gap-2 w-40 h-12 font-poppins text-white font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200">Learn
+                        More</a>
+                </div>
+            </section>
+        </div>
+        <section class="my-0 mx-auto max-w-4xl w-full px-8 md:px-24">
+            <h2 class="text-center font-black font-raleway text-3xl pt-24 pb-2 md:text-[2.5rem] xl:text-6xl xl:pb-4">Get
+                our App
+            </h2>
+            <p class="font-poppins leading-[200%] text-center pb-4 md:pb-6 xl:pb-12">You can use our App for better
+                experience on
+                smartphones
+            </p>
+            <div class="flex flex-col justify-start items-center gap-6 md:flex-row mb-24">
+                <a href="" class="flex w-full bg-black">
+                    <div class="flex w-full items-center gap-3 mx-5 md:mx-0 h-[84px] md:basis-1/2">
+                        <img src="./src/img/appstore.png" alt="App store logo" class="w-[60px] py-3 ml-8">
+                        <h3 class="font-poppins text-2xl text-white whitespace-nowrap">App Store</h3>
+                    </div>
+                </a>
+                <a href="" class="flex w-full bg-black">
+                    <div class="flex w-full items-center gap-3 mx-5 md:mx-0 h-[84px] md:basis-1/2">
+                        <img src="./src/img/google.png" alt="Google play logo" class="w-[60px] py-3 ml-8">
+                        <h3 class="font-poppins text-2xl text-white whitespace-nowrap">Google Play</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class=" w-full bg-black ">
+        <div
+            class="mx-auto max-w-4xl xl:max-w-6xl w-full flex flex-col gap-10 md:flex-row md:flex-wrap px-8 md:px-24 md:gap-0 md:pt-16 xl:px-0">
+            <div class="basis-1/2 text-center md:text-left xl:basis-1/4">
+                <h4 class="text-[#DA722C] pt-16 pb-3 md:pt-0 ">Quick Links</h4>
+                <ul class="text-white md:pl-4">
+                    <a href="">
+                        <li class="pb-2">About Us</li>
+                    </a>
+                    <a href="">
+                        <li class="pb-2">Contact Us</li>
+                    </a>
+                    <a href="">
+                        <li class="pb-2">Privacy Policy</li>
+                    </a>
+                    <a href="">
+                        <li>Terms & Conditions</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="basis-1/2 text-center md:text-left xl:basis-1/4">
+                <h4 class="text-[#DA722C] pb-3">Course</h4>
+                <ul class="text-white px-4">
+                    <a href="">
+                        <li class="pb-2">Log In</li>
+                    </a>
+                    <a href="">
+                        <li class="pb-2">Download</li>
+                    </a>
+                    <a href="">
+                        <li class="pb-2">All Courses</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="basis-full text-center md:text-left md:pt-10 xl:basis-1/2 xl:pt-0">
+                <h4 class="text-[#DA722C] pb-3">Contact Us</h4>
+                <h5 class="text-white pb-4 md:pl-4">contact@email.com</h5>
+                <div class="flex justify-center md:justify-start gap-7 pb-6 md:pl-4">
+                    <a href="#"><img src="./src/img/fb.svg" alt="facebook logo"></a>
+                    <a href="#"><img src="./src/img/insta.svg" alt="instagram logo"></a>
+                </div>
+                <div class="flex flex-col items-center md:pl-4 md:pb-7">
+                    <form action="" class="w-full flex flex-col md:flex-row md:border-4 md:rounded-lg md:items-center">
+                        <input type="text"
+                            class="mb-4 w-full h-10 rounded-lg md:grow-[2] md:mb-0 md:rounded-none md:border-none focus:outline-none">
+                        <button
+                            class="text-white bg-[#023047] w-[135px] h-9 flex justify-center items-center my-0 mx-auto rounded-lg">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class=" text-white font-poppins text-sm text-center pb-16">This website is developed by Mateusz Makowski
+                ©
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
