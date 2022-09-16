@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.widthCenter {
+  @apply my-0 mx-auto max-w-4xl w-full xl:max-w-6xl;
+}
+
+.button {
+  @apply w-40 h-12 flex justify-center items-center gap-2 font-poppins text-white font-black rounded-3xl;
+}
+
+.heading {
+  @apply font-raleway font-black text-3xl md:text-[2.5rem] xl:text-6xl;
+}

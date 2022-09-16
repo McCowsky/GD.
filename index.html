@@ -23,8 +23,8 @@
 </head>
 
 <body class="">
-    <div class="bg-gradient-to-b from-[#6F7DFB] to-[#057ADA] w-full">
-        <div class="w-full  h-36 fixed z-30 transition-all duration-[250ms] ease-linear bg-transparent" id="navBarBox">
+    <div class="bg-gradient-to-b from-[#6F7DFB] to-[#2d7bbb] w-full">
+        <div class="w-full h-36 fixed z-30 transition-all duration-[250ms] ease-linear bg-transparent " id="navBarBox">
             <div class="fixed w-full z-50 left-1/2 translate-x-[-50%] max-w-4xl xl:max-w-6xl">
                 <nav class="flex justify-between items-center h-36">
                     <div class="w-full flex justify-between items-center px-8 xl:px-0">
@@ -41,12 +41,12 @@
                                 <a href="">
                                     <li>Our Work</li>
                                 </a>
-                                <a href="" class="w-40 h-12 bg-black flex justify-center items-center rounded-3xl">
+                                <a href=""
+                                    class="w-40 h-12 bg-black font-black flex justify-center items-center rounded-3xl">
                                     <li>Enrol Now</li>
                                 </a>
                             </ul>
                         </div>
-
                     </div>
                 </nav>
             </div>
@@ -54,27 +54,28 @@
 
 
         <div class="right-10 top-16 flex flex-col justify-center md:hidden fixed z-[99999]" id="mobileMenuButton">
-            <span class="h-1 w-5 bg-black block mb-1"></span>
-            <span class="h-1 w-5 bg-black block"></span>
+            <span class="h-1 w-5 bg-black block mb-1 transition-all duration-[450ms] ease-linear"
+                id="mobileMenuChild1"></span>
+            <span class="h-1 w-5 bg-black block transition-all duration-[450ms] ease-linear"
+                id="mobileMenuChild2"></span>
         </div>
-        <div class="fixed top-[-100%] bottom-0 left-0 right-0 bg-black block h-full z-40 animate-hideNav hidden md:hidden"
+        <div class="fixed top-[-100%]  bottom-0 left-0 right-0 bg-black block h-full z-40 animate-hideNav hidden md:hidden"
             id="mobileMenuBox">
-            <ul class="relative top-[50%] translate-y-[-50%] text-white font-poppins text-2xl">
+            <ul class="relative top-[calc(50%-1.5rem)] translate-y-[-50%] text-white font-poppins text-2xl">
                 <li class="text-center mx-auto my-10"><a href="index.html" class="item-anchor">About</a></li>
                 <li class="text-center mx-auto my-10"><a href="about.html" class="item-anchor">Services</a></li>
                 <li class="text-center mx-auto my-10"><a href="projects.html" class="item-anchor">Our Work</a></li>
                 <a href="contact.html" class="item-anchor">
                     <li
-                        class="flex items-center justify-center text-center mx-auto my-10 w-40 h-12 text-base font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200">
-                        Enroll
-                        Now
+                        class="button text-center mx-auto my-10  text-base bg-[#DA722C] hover:bg-custom_purple transition ease-in duration-200">
+                        Enroll Now
                     </li>
                 </a>
             </ul>
         </div>
 
 
-        <header class="my-0 mx-auto max-w-4xl pt-36 overflow-hidden md:pt-60 xl:max-w-6xl">
+        <header class="widthCenter pt-36 overflow-hidden md:pt-60">
             <div class="px-8 md:pl-24 md:pr-32 flex flex-col xl:flex-row xl:px-0">
                 <div class="xl:basis-[40%]">
                     <h1 class="text-4xl font-raleway leading-[125%] font-black text-white pb-4
@@ -82,14 +83,9 @@
                         Game Dev
                     </h1>
                     <p class="font-poppins leading-[200%] text-white pb-8">This is a comprehensive course on Game
-                        Development. You will
-                        learn everything
-                        from
-                        generating an idea to
-                        publishing your
+                        Development. You will learn everything from generating an idea topublishing your
                         games to different platforms.</p>
-                    <a href=""
-                        class="flex justify-center items-center gap-2 w-40 h-12 font-poppins text-white font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200">
+                    <a href="" class="button bg-custom_orange  hover:bg-custom_purple transition ease-in duration-200">
                         <img src="./src/img/pencil.svg" alt="pencil pictogram" class="">
                         Enrol
                         Now
@@ -119,10 +115,10 @@
         </header>
     </div>
     <main>
-        <section class="my-0 mx-auto max-w-4xl w-full px-8 md:px-24 xl:max-w-6xl xl:px-0 relative">
+        <section class="widthCenter px-8 md:px-24 xl:px-0 relative">
             <div class="flex flex-col xl:flex-row-reverse xl:gap-24 mb-12 md:mb-16 xl:pt-32 xl:mb-32">
                 <div class="basis-[60%]">
-                    <h2 class="pt-24 font-raleway font-black text-3xl pb-3 md:text-[2.5rem] xl:text-6xl xl:pt-14">What
+                    <h2 class="heading pt-24 pb-3 xl:pt-14">What
                         our
                         students say</h2>
                     <p class="font-poppins leading-[200%] pb-20">All students get access to all the videos and also the
@@ -165,13 +161,13 @@
             </div>
             <div class="flex justify-end pb-24 xl:absolute xl:bottom-[-40px] xl:right-[400px]">
                 <a href="#"
-                    class="flex justify-center items-center gap-2 w-40 h-12 font-poppins text-white font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200 ">Learn
+                    class="button bg-custom_orange hover:bg-custom_purple transition ease-in duration-200 ">Learn
                     More</a>
             </div>
         </section>
-        <div class="bg-gradient-to-b from-[#6F7DFB] to-[#057ADA] w-full">
-            <section class="my-0 mx-auto max-w-4xl w-full md:px-24 xl:px-0 xl:max-w-6xl">
-                <h2 class="text-white font-black font-raleway text-3xl text-center py-16 md:text-[2.5rem] xl:text-6xl">
+        <div class="bg-gradient-to-b from-[#6F7DFB] to-[#2d7bbb] w-full">
+            <section class="widthCenter md:px-24 xl:px-0">
+                <h2 class="heading text-white text-center py-16">
                     Our Courses
                 </h2>
 
@@ -203,18 +199,17 @@
                 </div>
                 <div class="flex justify-end pb-16 mr-8 md:mr-0">
                     <a href="#"
-                        class="flex justify-center items-center gap-2 w-40 h-12 font-poppins text-white font-black bg-[#DA722C] rounded-3xl hover:bg-[#7A0E53] transition ease-in duration-200">Learn
+                        class="button bg-custom_orange hover:bg-custom_purple transition ease-in duration-200">Learn
                         More</a>
                 </div>
             </section>
         </div>
         <section class="my-0 mx-auto max-w-4xl w-full px-8 md:px-24">
-            <h2 class="text-center font-black font-raleway text-3xl pt-24 pb-2 md:text-[2.5rem] xl:text-6xl xl:pb-4">Get
+            <h2 class="heading text-center pt-24 pb-2 xl:pb-4">Get
                 our App
             </h2>
             <p class="font-poppins leading-[200%] text-center pb-4 md:pb-6 xl:pb-12">You can use our App for better
-                experience on
-                smartphones
+                experience on smartphones
             </p>
             <div class="flex flex-col justify-start items-center gap-6 md:flex-row mb-24">
                 <a href="" class="flex w-72 md:min-w-[288px] md:w-full bg-black">
@@ -232,11 +227,10 @@
             </div>
         </section>
     </main>
-    <footer class=" w-full bg-black ">
-        <div
-            class="mx-auto max-w-4xl xl:max-w-6xl w-full flex flex-col gap-10 md:flex-row md:flex-wrap px-8 md:px-24 md:gap-0 md:pt-16 xl:px-0">
+    <footer class="w-full bg-black">
+        <div class="widthCenter flex flex-col gap-10 md:flex-row md:flex-wrap px-8 md:px-24 md:gap-0 md:pt-16 xl:px-0">
             <div class="basis-1/2 text-center md:text-left xl:basis-1/4">
-                <h4 class="text-[#DA722C] pt-16 pb-3 md:pt-0 ">Quick Links</h4>
+                <h4 class="text-custom_orange pt-16 pb-3 md:pt-0 ">Quick Links</h4>
                 <ul class="text-white md:pl-4">
                     <a href="">
                         <li class="pb-2">About Us</li>
@@ -253,7 +247,7 @@
                 </ul>
             </div>
             <div class="basis-1/2 text-center md:text-left xl:basis-1/4">
-                <h4 class="text-[#DA722C] pb-3">Course</h4>
+                <h4 class="text-custom_orange pb-3">Course</h4>
                 <ul class="text-white px-4">
                     <a href="">
                         <li class="pb-2">Log In</li>
@@ -267,7 +261,7 @@
                 </ul>
             </div>
             <div class="basis-full text-center md:text-left md:pt-10 xl:basis-1/2 xl:pt-0">
-                <h4 class="text-[#DA722C] pb-3">Contact Us</h4>
+                <h4 class="text-custom_orange pb-3">Contact Us</h4>
                 <h5 class="text-white pb-4 md:pl-4">contact@email.com</h5>
                 <div class="flex justify-center md:justify-start gap-7 pb-6 md:pl-4">
                     <a href="#"><img src="./src/img/fb.svg" alt="facebook logo"></a>

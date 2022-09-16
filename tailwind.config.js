@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        custom_orange: "#DA722C",
+        custom_purple: "#7A0E53",
+      },
       fontFamily: {
         raleway: ["Raleway"],
         poppins: ["Poppins"],
