@@ -7,6 +7,20 @@ module.exports = {
         raleway: ["Raleway"],
         poppins: ["Poppins"],
       },
+      keyframes: {
+        hideNav: {
+          from: { top: "0%" },
+          to: { top: "-100%" },
+        },
+        showNav: {
+          from: { top: "-100%" },
+          to: { top: "0%" },
+        },
+      },
+      animation: {
+        hideNav: "hideNav 1s ease forwards",
+        showNav: "showNav 1s ease forwards",
+      },
     },
   },
   plugins: [],
