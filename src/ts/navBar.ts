@@ -1,5 +1,5 @@
 const navBarBox = document.getElementById("navBarBox");
-window.onscroll = function () {
+window.onscroll = function (): void {
   console.log(window.scrollY);
   if (window.scrollY >= 200) {
     navBarBox?.classList.add("bg-custom_purple");

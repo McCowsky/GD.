@@ -3,7 +3,7 @@ const mobileMenuButton = document.getElementById("mobileMenuButton");
 const mobileMenuChild1 = document.getElementById("mobileMenuChild1");
 const mobileMenuChild2 = document.getElementById("mobileMenuChild2");
 
-function mobileMenuHide() {
+function mobileMenuHide(): void {
   mobileMenuBox?.classList.toggle("animate-hideNav");
   mobileMenuBox?.classList.toggle("animate-showNav");
 
